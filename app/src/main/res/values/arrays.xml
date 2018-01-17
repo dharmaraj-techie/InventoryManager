@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contact_info">
+        <item>Mobile Number</item>
+        <item>E-Mail</item>
+    </string-array>
+</resources>

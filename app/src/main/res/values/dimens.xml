@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="bottom_padding_error_msg">72dp</dimen>
+    <dimen name="text_size_empty_state_msg">20sp</dimen>
+    <dimen name="padding_empty_state_text_view">16dp</dimen>
+    <dimen name="product_image_view_size">240dp</dimen>
+    <dimen name="btn_margin">8dp</dimen>
+    <dimen name="btn_default_padding">16dp</dimen>
+    <dimen name="primary_content_start_margin">8dp</dimen>
+    <dimen name="primary_content_top_margin">8dp</dimen>
+    <dimen name="secondary_content_margin_start">16dp</dimen>
+    <dimen name="default_top_margin">8dp</dimen>
+    <dimen name="text_view_default_margin">8dp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="list_item_thumbnail_size">60dp</dimen>
+    <dimen name="list_view_start_margin">0dp</dimen>
+    <dimen name="list_view_end_margin">0dp</dimen>
+    <dimen name="default_text_size">20sp</dimen>
+    <dimen name="end_margin">8dp</dimen>
+    <dimen name="widget_item_padding">8dp</dimen>
+</resources>

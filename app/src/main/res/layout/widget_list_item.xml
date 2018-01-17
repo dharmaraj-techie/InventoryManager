@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_list_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/product_name_widget_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_view_default_margin"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        tools:text="Product Name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/widget_item_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/end_margin"
+            android:paddingStart="@dimen/secondary_content_margin_start"
+            android:text="@string/cost_txt"
+            android:textColor="@color/primaryTextColor" />
+
+        <TextView
+            android:id="@+id/cost_widget_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/end_margin"
+            android:paddingStart="@dimen/secondary_content_margin_start"
+            android:textColor="@color/primaryTextColor"
+            tools:text="10RS" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/widget_item_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/end_margin"
+            android:paddingStart="@dimen/secondary_content_margin_start"
+            android:text="@string/quantity_txt"
+            android:textColor="@color/primaryTextColor" />
+
+        <TextView
+            android:id="@+id/quantity_widget_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/end_margin"
+            android:paddingStart="@dimen/secondary_content_margin_start"
+            android:textColor="@color/primaryTextColor"
+            tools:text="10" />
+    </LinearLayout>
+</LinearLayout>
