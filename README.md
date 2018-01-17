@@ -3,9 +3,7 @@ Capstone Project
 
 Description 
 
-Manage your stock in your local store or in your warehouse.  This app stores the stocks list in a local database and keeps track of it when it is sold and it make sure that you don’t run out of stocks.
-Intended User
-This app is Intended for small business and shops who needs to keep track of their stocks using a mobile app.
+Manage your stock in your local store or in your warehouse.  This app stores the stocks list in a local database and keeps track of it when it is sold and it make sure that you don’t run out of stocks.This app is Intended for small business and shops who needs to keep track of their stocks using a mobile app.
 
 Features
 
